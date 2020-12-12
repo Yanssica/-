@@ -4,9 +4,14 @@
     background: #F7F7F7;
 }
 
+body {
+    background: #f7f7f7;
+}
+
 .l_body {
     margin: 20px auto;
     margin-bottom: 20px;
+    margin-top: 20px;
     width: 1000px;
     height: 782px;
     background: #FFFFFF;
