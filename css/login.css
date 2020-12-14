@@ -1,0 +1,162 @@
+.L_max {
+    position: relative;
+    margin: 211px auto;
+    width: 891px;
+    height: 406px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-bottom: 3px solid #FE584D;
+    display: block;
+}
+
+.l_guanbi {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #595959;
+    cursor: pointer;
+}
+
+.l_top {
+    position: absolute;
+    font-size: 17px;
+    color: #595959;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.l_left {
+    position: absolute;
+    width: 472px;
+    height: 236px;
+    border-right: 1px solid #ccc;
+    line-height: 83px;
+    margin-top: 95px;
+    margin-left: 30px;
+}
+
+.l_item input {
+    width: 424px;
+    height: 54px;
+    border: 1px solid #ccc;
+}
+
+.l_right {
+    position: absolute;
+    width: 225px;
+    height: 203px;
+    right: 30px;
+    top: 20px;
+}
+
+.l_zd {
+    position: absolute;
+    top: 163px;
+    left: 7px;
+}
+
+.l_xc {
+    font-size: 16px;
+    color: #595959;
+}
+
+button {
+    position: absolute;
+    top: 173px;
+    left: 223px;
+    width: 203px;
+    height: 50px;
+    background: #FE584D;
+    color: #FFF6F6;
+    border-radius: 20px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(236, 70, 59)
+}
+
+.l_lb {
+    position: absolute;
+    top: 212px;
+    left: 14px;
+    width: 420px;
+}
+
+.l_lb a {
+    margin-right: 248px;
+    font-size: 17px;
+    color: #595959;
+    font-weight: bolder;
+}
+
+.l_lb a:nth-child(2) {
+    margin: 0px;
+}
+
+.l_sj {
+    position: absolute;
+    top: 12px;
+    right: 115px;
+    color: #595959;
+    font-size: 18px;
+}
+
+.l_ewm {
+    position: absolute;
+    top: 77px;
+    right: 61px;
+}
+
+.l_wb {
+    position: absolute;
+    top: 295px;
+    right: 218px;
+}
+
+.l_wb img {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 50px;
+    height: 40px;
+}
+
+.l_wb a {
+    position: absolute;
+    top: 11px;
+    right: -35px;
+    color: #979797;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.l_qq {
+    position: absolute;
+    top: 297px;
+    right: 32px;
+    width: 112px;
+}
+
+.l_qq img {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 52px;
+    height: 40px;
+    background: #FE584D;
+}
+
+.l_qq a {
+    position: absolute;
+    top: 11px;
+    left: 57px;
+    color: #979797;
+    font-size: 15px;
+    font-weight: bolder;
+}

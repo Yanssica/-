@@ -7,7 +7,7 @@ $(function() {
     $('input[name="phone"]').focus(function() {
         if ($(this).val() == "") {
             layer.tips('手机号不能为空', '.l_tableItem', {
-                tips: [3, 'yelow'],
+                tips: [3, 'black'],
                 time: 3000,
             })
         }
@@ -34,7 +34,7 @@ $(function() {
     $('input[name="tupian"]').focus(function() {
         if ($(this).val() == "") {
             layer.tips('验证码不能为空', '.tpyzm', {
-                tips: [3, "red"],
+                tips: [3, "black"],
                 time: 1000,
 
             })
@@ -42,7 +42,7 @@ $(function() {
 
     });
     $('input[name="tupian"]').blur(function() {
-            if ($(this).val() == "r2b7") {
+            if ($(this).val() == "r2B7") {
                 layer.tips("验证通过", '.tpyzm', {
                     tips: [3, 'green'],
                     time: 1000,
@@ -61,17 +61,24 @@ $(function() {
     $("input[name='username']").focus(function() {
         if ($(this).val() == "") {
             layer.tips('用户名不能为空', '#user', {
-                tips: [3, 'yelow'],
+                tips: [3, 'black'],
                 time: 1000,
             })
             tz = false
-        } else {
+        } else if ($(this).val() == "admin") {
             layer.tips('验证通过', '#user', {
-                tips: [3, 'red'],
+                tips: [3, 'green'],
                 time: 1000,
             })
             tz = true
+        } else if ($(this).val() != "admin") {
+            layer.tips("用户名错误", "#user", {
+                tips: [3, 'red'],
+                time: 1000,
+            })
+            tz = false
         }
+        return tz
 
     });
     // $('input[name="username"]').blur(function() {
@@ -94,7 +101,7 @@ $(function() {
     //密码
     $('input[name="pwd"]').focus(function() {
         if ($(this).val() == "") {
-            layer.tips('长度在8-20个字符之间', '#pass', {
+            layer.tips('密码不能为空', '#pass', {
                 tips: [3, 'black'],
                 time: 1000,
             })
@@ -102,7 +109,7 @@ $(function() {
 
     });
     $('input[name="pwd"]').blur(function() {
-        if (/^\w{6,10}$/.test($(this).val())) {
+        if ($(this).val() == "123456") {
             layer.tips('验证通过', '#pass', {
                 tips: [3, 'green'],
                 time: 1000,
@@ -120,17 +127,6 @@ $(function() {
 
 
     //确认新密码
-    $("input[name='rePasswords']").focus(function() {
-        if ($(this).value == "") {
-            layer.tips('密码不能为空', '#repass', {
-                tips: [3, 'black'],
-                time: 1000,
-
-            })
-        }
-    })
-
-
     $("input[name='rePasswords']").blur(function() {
         //console.log($('input[name="pwd"]').val())
         if ($('input[name="pwd"]').val() == $(this).val()) {
