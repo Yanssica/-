@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/registerpage.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/towei.css">
+
 </head>
 
 <body>
@@ -32,10 +33,10 @@
             </div>
             <form action="##" style="margin: 123px auto;">
                 <div class="l_tableItem">
-                    <input type="text" name="phone" required placeholder="请输入登入手机号码" pattern="^1[3578]\d{9}$" / class="num">
+                    <input type="text" name="phone" required placeholder="请输入登入手机号码" pattern="^1[3578]\d{9}$" class="num" />
                 </div>
                 <div class="l_yzm">
-                    <input type="text" name="tupian" required placeholder="请输入图片校检码">
+                    <input type="text" name="tupian" required placeholder="请输入图片校检码" class="tpyzm">
                     <span class="l_img">
                         <img src="./images/imgCode.jpg" alt="">
                     </span>
@@ -43,7 +44,7 @@
 
                 <div class="l_cf">
                     <div class="l_yzm">
-                        <input class="yanzheng" type="text" name="yanzheng" placeholder="请输入四位数字验证码" /> <button class="l_hqyzm" type="button">获取验证码</button>
+                        <input class="tableText" type="text" name="yanzheng" placeholder="请输入四位数字验证码" /> <button class="l_hqyzm" type="button">获取验证码</button>
                     </div>
                 </div>
                 <div class="l_tableItem">
@@ -53,9 +54,9 @@
                     <input type="password" name="pwd" id="pass" required placeholder="请输入新密码" pattern="^\w{6,10}$" />
                 </div>
                 <div class="l_tableItem">
-                    <input type="password" name="rePassword" id="repass" required placeholder="确认新密码" pattern="^\w{6,10}$" />
+                    <input type="password" name="rePasswords" id="repass" required placeholder="确认新密码" pattern="^\w{6,10}$" />
                 </div>
-                <button type="submit" class="l_ljzc">立即注册</button>
+                <button type="button" class="l_ljzc">立即注册</button>
             </form>
         </div>
     </div>
@@ -112,6 +113,7 @@
     </div>
 </body>
 <script src="./cajian/jquery-3.4.1.min - .js"></script>
-<script src="./layer/layer.js"></script>
+<script src="js/registerpage.js"></script>
+<script src=" ./layer/layer.js "></script>
 
 </html>
