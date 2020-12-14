@@ -18,6 +18,7 @@
   float: left;
   margin-left: 208px;
   margin-top: 15px;
+  cursor: pointer;
 }
 .t_box .t_box_img img {
   width: 140px;
@@ -161,6 +162,6 @@
 .t_foot .t_foot_db {
   position: relative;
   color: #a3a0a7;
-  top: -233px;
-  left: 45%;
+  top: -260px;
+ text-align: center;
 }
