@@ -11,4 +11,12 @@
             partialView.next();
         });
     });
+    var arr = [];
+    $.get("http://192.168.1.94:3000/play/new", function (data) {
+        arr = data;
+    }, "json");
+    $(".t_jz").click(function(){
+        $(".t_jz_div").css("display","none");
+        $(".t_jz_img").css("display","block");
+    })
 })();

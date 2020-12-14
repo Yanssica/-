@@ -159,5 +159,6 @@
   position: relative;
   color: #a3a0a7;
   top: -233px;
-  left: 45%;
+  /* left: 45%; */
+  text-align: center;
 }
