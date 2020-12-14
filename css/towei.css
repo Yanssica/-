@@ -37,8 +37,8 @@
   width: 80px;
   height: 30px;
 }
-.t_box .t_box_dh div a {
-  color: black;
+.t_box .t_box_dh div .active {
+  color: #f8572b;
 }
 .t_box .t_box_right {
   float: right;
@@ -159,6 +159,5 @@
   position: relative;
   color: #a3a0a7;
   top: -233px;
-  /* left: 45%; */
-  text-align: center;
+  left: 45%;
 }

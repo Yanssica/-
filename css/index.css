@@ -1,6 +1,5 @@
 .t_Box {
   width: 100%;
-  margin-bottom: 100px;
 }
 .t_Box .t_head .t_head_top {
   position: relative;
@@ -211,13 +210,9 @@
 .t_jz div {
   position: absolute;
   left: 45%;
-  margin-top: 30px;
 }
 .t_jz .t_jz_img {
   position: absolute;
-  width: 50px;
-  margin-top: 10px;
-  left: 47%;
+  left: 48%;
   display: none;
-
 }
