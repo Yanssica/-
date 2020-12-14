@@ -6,7 +6,7 @@ $(function() {
     var tz = false;
     $('input[name="phone"]').focus(function() {
         if ($(this).val() == "") {
-            layer.tips('手机号不能为空', '.l_tableItem', {
+            layer.tips('手机号不能为空', '.num', {
                 tips: [3, 'black'],
                 time: 3000,
             })

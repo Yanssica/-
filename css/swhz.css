@@ -1,0 +1,222 @@
+.l_body {
+    position: relative;
+    width: 1423px;
+}
+
+.l_left {
+    position: absolute;
+    top: 51px;
+    left: 207px;
+    width: 268px;
+    height: 325px;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+
+.l_left span {
+    position: absolute;
+    top: 27px;
+    left: 23px;
+    border-bottom: 2px solid #ccc;
+    color: #4C4846;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 220px;
+}
+
+.l_frist {
+    position: absolute;
+    top: 62px;
+    left: 27px;
+}
+
+.l_frist li {
+    width: 100px;
+    font-size: 15px;
+}
+
+ul li {
+    line-height: 24px;
+}
+
+.l_active {
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+}
+
+.l_last {
+    position: absolute;
+    top: 162px;
+    left: 27px;
+}
+
+.l_last li {
+    width: 110px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.l_right {
+    position: absolute;
+    width: 707px;
+    height: 1683px;
+    background: #F3F3F3;
+    top: 51px;
+    left: 500px;
+    border-radius: 5px;
+    margin-bottom: 48px;
+}
+
+.l_right span:nth-child(1) {
+    position: absolute;
+    top: 27px;
+    left: 23px;
+    border-bottom: 2px solid #ccc;
+    color: #4C4846;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 650px;
+}
+
+.l_right span:nth-child(2) {
+    position: absolute;
+    top: 70px;
+    left: 23px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.l_right span:nth-child(3) {
+    position: absolute;
+    top: 100px;
+    left: 23px;
+    font-size: 15px;
+    color: #5B4F5D;
+}
+
+.l_right span:nth-child(4) {
+    position: absolute;
+    top: 200px;
+    left: 23px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.l_right span:nth-child(5) {
+    position: absolute;
+    top: 238px;
+    left: 23px;
+    font-size: 15px;
+    color: #5B4F5D;
+}
+
+.l_right span:nth-child(6) {
+    position: absolute;
+    top: 922px;
+    left: 23px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.l_zlhz {
+    position: absolute;
+    top: 961px;
+    left: 23px;
+}
+
+.l_zlhz .active {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.l_zlhz li {
+    color: #7887A2;
+    font-size: 15px;
+}
+
+.l_sy {
+    position: absolute;
+    top: 1079px;
+    left: 23px;
+}
+
+.l_sy .active {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.l_sy li {
+    color: #7887A2;
+    font-size: 15px;
+}
+
+.l_syhz {
+    position: absolute;
+    top: 1220px;
+    left: 23px;
+}
+
+.l_syhz .active {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.l_syhz li {
+    color: #7887A2;
+    font-size: 15px;
+}
+
+.sc {
+    position: absolute;
+    top: 1345px;
+    left: 23px;
+}
+
+.sc .active {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.sc li {
+    color: #7887A2;
+    font-size: 15px;
+}
+
+.sz {
+    position: absolute;
+    top: 1478px;
+    left: 23px;
+}
+
+.sz .active {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.sz li {
+    color: #7887A2;
+    font-size: 15px;
+}
+
+.jg {
+    position: absolute;
+    top: 1600px;
+    left: 23px;
+}
+
+.jg .active {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.jg li {
+    color: #7887A2;
+    font-size: 15px;
+}
