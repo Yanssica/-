@@ -19,16 +19,10 @@
 }
 
 .t_box .t_box_img {
-<<<<<<< HEAD
   float: left;
   margin-left: 208px;
   margin-top: 15px;
   cursor: pointer;
-=======
-    float: left;
-    margin-left: 208px;
-    margin-top: 15px;
->>>>>>> c343f6af7dd80f2f9af3274488e8e738d2d3e194
 }
 
 .t_box .t_box_img img {
@@ -55,13 +49,9 @@
 .t_box .t_box_dh div a {
     color: black;
 }
-<<<<<<< HEAD
 .t_box .t_box_dh div .active {
   color: #f8572b;
 }
-=======
-
->>>>>>> c343f6af7dd80f2f9af3274488e8e738d2d3e194
 .t_box .t_box_right {
     float: right;
     position: relative;
@@ -201,17 +191,8 @@
 }
 
 .t_foot .t_foot_db {
-<<<<<<< HEAD
   position: relative;
   color: #a3a0a7;
   top: -260px;
  text-align: center;
 }
-=======
-    position: relative;
-    color: #a3a0a7;
-    top: -233px;
-    /* left: 45%; */
-    text-align: center;
-}
->>>>>>> c343f6af7dd80f2f9af3274488e8e738d2d3e194

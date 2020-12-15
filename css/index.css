@@ -219,5 +219,15 @@
   display: none;
 }
 .t_dh {
-  animation: tdh 1s initial;
+  animation: zhuan 0.5s linear both;
+}
+@keyframes zhuan {
+  0% {
+    opacity: 0;
+    transform: translate(265px, -100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
 }

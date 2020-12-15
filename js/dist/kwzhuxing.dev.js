@@ -5,6 +5,7 @@
   $(".t_kwzx_jz").click(function () {
     $(".t_kwzx_jz_div").css("display", "none");
     $(".t_kwzx_jz_img").css("display", "block");
+    console.log(2);
     setTimeout(function () {
       $.get("http://192.168.1.94:3000/play/new", function (data) {
         console.log(data);
@@ -14,14 +15,15 @@
           $(".t_gl_sj").append(html);
         });
       }, 'json');
+      $(".t_kwzx_jz_div").css("display", "block");
+      $(".t_kwzx_jz_img").css("display", "none");
     }, 3000);
-    $(".t_kwzx_jz_img").css("display", "none");
   });
   $(".t_kwzx_jz2").click(function () {
     $(".t_kwzx_jz_div2").css("display", "none");
     $(".t_kwzx_jz_img").css("display", "block");
     setTimeout(function () {
-      $.get("http://192.168.1.94:3000/play/hot", function (data) {
+      $.get("http://192.168.1.94:3000/play/new", function (data) {
         console.log(data);
         arr = data;
         arr[0].forEach(function (val) {
@@ -29,24 +31,35 @@
           $(".t_gl_sj2").append(html);
         });
       }, 'json');
-    }, 3000);
-    $(".t_kwzx_jz_img").css("display", "none");
-  });
-  $(".t_kwzx_jz3").click(function () {
-    $(".t_kwzx_jz_div3").css("display", "none");
-    $(".t_kwzx_jz_img").css("display", "block");
-    setTimeout(function () {
-      $.get("http://192.168.1.94:3000/play/hot", function (data) {
-        console.log(data);
-        arr = data;
-        arr[0].forEach(function (val) {
-          var html = "  <div class=\"t_kwzx_div\">\n            <img src=\"".concat(val.img, "\">\n            <div class=\"t_kwzx_js t_kw_js\">\n            ").concat(val.text, "\n            </div>\n            <p class=\"t_kwzx_js t_kw_js\" style=\"margin-top: 0px;\"></p>\n            <ul class=\"clearfix\">\n                <li class=\"t_kwzx_li\">").concat(val.price, "</li>\n                <li class=\"t_kwzx_li2\"><img src=\"./images/reply.png\" alt=\"\"> ").concat(val.like, " </li>\n                <li class=\"t_kwzx_li3\"> <img src=\"./images/zan.png\" alt=\"\"> ").concat(val.words, " </li>\n            </ul>\n        </div>");
-          $(".t_gl_sj3").append(html);
-        });
-      }, 'json');
-    }, 3000);
-    $(".t_kwzx_jz_img").css("display", "none");
-  });
+      $(".t_kwzx_jz_div2").css("display", "block");
+      $(".t_kwzx_jz_img").css("display", "none");
+    }, 1000);
+  }); // $(".t_kwzx_jz3").click(function () {
+  //     $(".t_kwzx_jz_div3").css("display", "none");
+  //     $(".t_kwzx_jz_img").css("display", "block");
+  //     setTimeout(function () {
+  //         $.get("http://192.168.1.94:3000/play/hot", function (data) {
+  //             console.log(data);
+  //             arr = data;
+  //             arr[0].forEach(function (val) {
+  //                 var html = `  <div class="t_kwzx_div">
+  //         <img src="${val.img}">
+  //         <div class="t_kwzx_js t_kw_js">
+  //         ${val.text}
+  //         </div>
+  //         <p class="t_kwzx_js t_kw_js" style="margin-top: 0px;"></p>
+  //         <ul class="clearfix">
+  //             <li class="t_kwzx_li">${val.price}</li>
+  //             <li class="t_kwzx_li2"><img src="./images/reply.png" alt=""> ${val.like} </li>
+  //             <li class="t_kwzx_li3"> <img src="./images/zan.png" alt=""> ${val.words} </li>
+  //         </ul>
+  //     </div>`
+  //                 $(".t_gl_sj3").append(html);
+  //             });
+  //         }, 'json');
+  //     }, 1000)
+  // });
+
   $(".t_kw_qh").click(function () {
     $(".t_boxkw_li").css("display", "block");
     $(".t_boxkw_li2").css("display", "none");

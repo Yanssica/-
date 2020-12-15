@@ -1,0 +1,173 @@
+/* 导航栏样式 */
+
+#s_title {
+    width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d0d0d0;
+    /* background-color: #ffffff; */
+    box-shadow: 0px -1px 1px #eaeaea inset;
+}
+
+
+/* 导航栏版心 */
+
+#s_daohang {
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+}
+
+
+/* 导航栏logo */
+
+#s_daohang>img {
+    float: left;
+    margin-top: 10px;
+}
+
+
+/* 导航链接栏 */
+
+#s_daohang_d1 {
+    float: left;
+    overflow: hidden;
+    margin-left: 64px;
+    margin-top: 32px;
+}
+
+
+/* 导航链接样式 */
+
+.s_mr {
+    float: left;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #2b292c;
+}
+
+
+/* 当前页面链接样式 */
+
+.s_dq {
+    color: #f25238;
+}
+
+
+/* 右侧注册外框 */
+
+#s_daohang_d2 {
+    float: right;
+    overflow: hidden;
+    margin-top: 21px;
+    padding: 7px 0px 0px 33px;
+    background: url(../images/search.png) no-repeat 0px 5px;
+    color: #ff4e43;
+    font-size: 16px;
+
+}
+
+
+/* 搜索图片 */
+
+#s_daohang_d2>div {
+    margin-left: 10px;
+    height: 32px;
+    color: #ff4e43;
+    font-size: 16px;
+}
+
+
+/* 注册链接 */
+
+#s_daohang_d2 a {
+    color: #ff4e43;
+}
+
+
+/* 极果底部信息栏 */
+
+#s_bot {
+    width: 100%;
+    background-color: #505050;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+
+/* 极果底部信息栏版心 */
+
+#s_foot {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* 二维码 */
+
+#s_foot>img {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/* 底部logo及信息 */
+
+#s_foot>div {
+    float: left;
+}
+
+#s_foot>div>p {
+    color: #aaa59f;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#s_foot>div>p:nth-child(2) {
+    margin-top: 24px;
+}
+
+#s_foot>div>p:nth-child(4) {
+    margin-top: 12px;
+}
+
+
+/* 底部链接列表 */
+
+#s_foot>dl {
+    float: left;
+    list-style: none;
+    margin-left: 28px;
+}
+
+#s_foot>dl>dt {
+    margin-bottom: 26px;
+}
+
+#s_foot>dl>dt a {
+    font-size: 15px;
+    color: #ffffea;
+}
+
+#s_foot>dl>dd a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #aaa59f;
+}
+
+#s_foot>dl>dd>span {
+    display: inline-block;
+    width: 70px;
+}
+
+
+/* 声明 */
+
+#s_bot>div {
+    text-align: center;
+    margin-top: 106px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #aaa59f;
+}

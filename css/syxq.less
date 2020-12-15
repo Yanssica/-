@@ -1,0 +1,63 @@
+.t_head_tops {
+    position: relative;
+    color: #feffff;
+    width: 100%;
+    height: 300px;
+    background: url(./../images/original.jpg);
+    background-position: -250px 0;
+
+    h1 {
+        position: absolute;
+        left: 898px;
+        top: 46px;
+        color: #feffff;
+    }
+
+    .t_head_top_xq {
+        position: absolute;
+        left: 944px;
+        top: 90px;
+
+        span {
+            text-align: center;
+            padding: 6px;
+            background: rgba(255, 255, 255, .4);
+        }
+    }
+
+    .t_head_top_sj {
+        position: absolute;
+        top: 125px;
+        left: 937px;
+    }
+
+    .t_head_top_btu {
+        position: absolute;
+        top: 150px;
+        left: 933px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        line-height: 48px;
+        font-size: 25px;
+        width: 200px;
+        height: 48px;
+        background: #fe5341;
+    }
+}
+.t_dh {
+    animation: zhuan .5s linear both;
+}
+
+@keyframes zhuan {
+    0% {
+        opacity: 0;
+        transform: translate(265px, -100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
