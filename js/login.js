@@ -1,7 +1,7 @@
 (function() {
     var dl = false
     $(".l_guanbi").click(function() {
-            $(".L_max").css("display", "none")
+            $(".l_box").css("display", "none")
         })
         //用户名
     $("input[name='phone']").focus(function() {
@@ -56,11 +56,11 @@
         }
         return dl
     });
-    $(".btn").click(function() {
-        if (dl == true) {
-            location = "##"
-        } else {
-            alert("登录失败")
-        }
-    })
+    // $(".btn").click(function() {
+    //     if (dl == true) {
+    //         location = "##"
+    //     } else {
+    //         alert("登录失败")
+    //     }
+    // })
 })();

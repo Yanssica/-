@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/partialviewslider.min.css">
     <link rel="stylesheet" href="./css/towei.css">
+    <link rel="stylesheet" href="./css/login.css">
     <style>
         /* .partialViewSlider-clone{
             width: 1000px;
         } */
+        .active {
+            color: #f8572b;
+        }
     </style>
 </head>
 
@@ -21,7 +25,7 @@
     <div class="t_box clearfix">
         <div class="t_box_img"><img src="./images/logonew.png" alt=""></div>
         <div class="t_box_dh">
-            <div><a href="">首页</a></div>
+            <div><a href="" class="active">首页</a></div>
             <div><a href="">酷玩</a></div>
             <div><a href="">导购</a></div>
             <div><a href="">试用</a></div>
@@ -30,7 +34,7 @@
         <div class="t_box_right">
             <img src="./images/search.png" alt="">
             <span class="l_zc">注册</span>
-            <span style="right: -126px;" class="l_dl">登录</span>
+            <span class="l_dl" style="right: -126px;">登录</span>
         </div>
     </div>
     <!-- ------- -->
@@ -38,14 +42,16 @@
         <div class="t_head">
             <!-- tb -->
             <div class="t_head_top">
-                <h1>约响小贝HiFi2.1音箱</h1>
-                <div class="t_head_top_xq">
-                    <span>126人申请</span>
-                    <span>￥559</span>
-                    <span>20台</span>
+                <div class="t_dh">
+                    <h1>约响小贝HiFi2.1音箱</h1>
+                    <div class="t_head_top_xq">
+                        <span>126人申请</span>
+                        <span>￥559</span>
+                        <span>20台</span>
+                    </div>
+                    <div class="t_head_top_sj">申请时间剩余: <span>13天15小时17分</span></div>
+                    <div class="t_head_top_btu">立即申请</div>
                 </div>
-                <div class="t_head_top_sj">申请时间剩余: <span>13天15小时17分</span></div>
-                <div class="t_head_top_btu">立即申请</div>
             </div>
             <!-- lbt -->
             <div class="t_lbt_btur" id="next"><img src="./images/next.png" alt=""></div>
@@ -618,12 +624,51 @@
             <p>CEO邮箱:CEO@jiguo.com</p>
         </div>
         <div class="t_foot_db">© 2016 极果版权所有</div>
+    </div>
+    <!-- -----------dl -->
+    <div class="l_box">
+        <div class="L_max">
+            <span class="l_guanbi">
+                &times;
+            </span>
+            <span class="l_top">极果账号登录</span>
+            <div class="l_left">
+                <div class="l_item">
+                    <input type="text" name="phone" required placeholder="用户名" class="num" />
+                </div>
+                <div class="l_item">
+                    <input type="password" name="Passwords" id="pass" required placeholder="密码" />
+                </div>
+                <div class="l_zd">
+                    <input type="checkbox">
+                    <span class="l_xc">下次自动登录</span>
+                </div>
 
+                <button type="button" class="btn">登录</button>
+                <div class="l_lb">
+                    <a href="registerpage.html">注册新账号</a>
+                    <a href="##">忘记密码?</a>
+                </div>
+            </div>
+            <div class="l_right">
+                <span class="l_sj">社交网络登录</span>
+                <img src="./images/二维码.png" alt="" class="l_ewm">
+                <div class="l_wb">
+                    <img src="./images/QQ图片20190919002511.png" alt="">
+                    <a href="##">微博</a>
+                </div>
+                <div class="l_qq">
+                    <img src="./images/QQ图片20190919002506.png" alt="">
+                    <a href="##">QQ</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="./cajian/jquery-3.4.1.min - .js"></script>
 <script src="./cajian/partialviewslider.min.js"></script>
 <script src="./js/index.js"></script>
 <script src="./cajian/template-web.js"></script>
+<script src="./js/login.js"></script>
 
 </html>
