@@ -11,11 +11,32 @@
     <link rel="stylesheet" href="./css/towei.css">
     <link rel="stylesheet" href="./css/login.css">
     <style>
-        /* .partialViewSlider-clone{
-            width: 1000px;
-        } */
-        .active {
-            color: #f8572b;
+        .t_bg_div img:hover {
+            animation: 2s lol infinite;
+        }
+
+        @keyframes lol {
+            0% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .t_lbt_div img:hover {
+            animation: 2s lol infinite;
+        }
+
+        @keyframes lol {
+            0% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -25,11 +46,11 @@
     <div class="t_box clearfix">
         <div class="t_box_img"><img src="./images/logonew.png" alt=""></div>
         <div class="t_box_dh">
-            <div><a href="" class="active">首页</a></div>
+            <div><a href="./index.html" style="color: coral;">首页</a></div>
             <div><a href="./kwzhuixin.html">酷玩</a></div>
             <div><a href="./daogou.html">导购</a></div>
             <div><a href="./shiyong.html">试用</a></div>
-            <div><a href="">报告</a></div>
+            <div><a href="./report.html">报告</a></div>
         </div>
         <div class="t_box_right">
             <img src="./images/search.png" alt="">
@@ -666,9 +687,11 @@
     </div>
 </body>
 <script src="./cajian/jquery-3.4.1.min - .js"></script>
+<script src="./layer/layer.js"></script>
 <script src="./cajian/partialviewslider.min.js"></script>
 <script src="./js/index.js"></script>
 <script src="./cajian/template-web.js"></script>
 <script src="./js/login.js"></script>
+
 
 </html>

@@ -21,7 +21,5 @@
     $(".l_zc").click(function () {
         location = "registerpage.html"
     });
-    $(".t_box_img").click(function () {
-        location = "index.html";
-    })
+
 })();

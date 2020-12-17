@@ -32,7 +32,7 @@
 .t_kwzx_boxdiv .t_kwzx_div {
   float: left;
   margin-right: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   width: 222px;
   height: 223px;
   border: 1px solid #eaeaea;
@@ -110,28 +110,7 @@
   left: 45%;
   top: 37px;
 }
-.t_kwzx_jz2 .t_kwzx_jz_img {
-  width: 50px;
-  position: absolute;
-  left: 48%;
-  display: none;
-}
-.t_kwzx_jz3 {
-  position: relative;
-  text-align: center;
-  margin-top: 56px;
-  width: 1000px;
-  margin: 0 auto;
-  color: #ee5a2a;
-  font-weight: bold;
-  cursor: pointer;
-}
-.t_kwzx_jz3 div {
-  position: absolute;
-  left: 45%;
-  top: 37px;
-}
-.t_kwzx_jz3 .t_kwzx_jz_img {
+.t_kwzx_jz2 .t_kwzx_jz_img2 {
   width: 50px;
   position: absolute;
   left: 48%;

@@ -5,7 +5,7 @@
         $(".t_sy_jz_img").css("display", "block");
 
         setTimeout(function () {
-            $.get("http://192.168.1.94:3000/useing/public", function (data) {
+            $.get("http://192.168.1.24:3000/useing/public", function (data) {
                 console.log(data);
                 data.forEach(function (val) {
                     var html = `     <div class="t_syqb_div">
@@ -31,7 +31,7 @@
         $(".t_sy_jz_img2").css("display", "block");
 
         setTimeout(function () {
-            $.get("http://192.168.1.94:3000/useing/public", function (data) {
+            $.get("http://192.168.1.24:3000/useing/public", function (data) {
                 console.log(data);
                 arr = data;
                 arr.forEach(function (val) {
@@ -49,7 +49,7 @@
             }, 'json');
             $(".t_sy_jz_div2").css("display", "block");
             $(".t_sy_jz_img2").css("display", "none");
-        }, 0.1)
+        }, 1000)
 
     });
 
@@ -58,7 +58,7 @@
         $(".t_sy_jz_img3").css("display", "block");
 
         setTimeout(function () {
-            $.get("http://192.168.1.94:3000/useing/public", function (data) {
+            $.get("http://192.168.1.24:3000/useing/public", function (data) {
                 console.log(data);
                 arr = data;
                 arr.forEach(function (val) {
@@ -76,7 +76,7 @@
             }, 'json');
             $(".t_sy_jz_div3").css("display", "block");
             $(".t_sy_jz_img3").css("display", "none");
-        }, 0.1)
+        }, 1000)
 
     });
 
@@ -85,7 +85,7 @@
         $(".t_sy_jz_img4").css("display", "block");
 
         setTimeout(function () {
-            $.get("http://192.168.1.94:3000/useing/public", function (data) {
+            $.get("http://192.168.1.24:3000/useing/public", function (data) {
                 console.log(data);
                 arr = data;
                 arr.forEach(function (val) {
@@ -103,11 +103,11 @@
             }, 'json');
             $(".t_sy_jz_div4").css("display", "block");
             $(".t_sy_jz_img4").css("display", "none");
-        }, 0.1)
+        },1000)
 
     });
 
-    $.get("http://192.168.1.94:3000/useing/master", function (data) {
+    $.get("http://192.168.1.24:3000/useing/master", function (data) {
         console.log(data);
         arr = data;
         arr.forEach(function (val) {

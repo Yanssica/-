@@ -1,10 +1,10 @@
-(function() {
+(function () {
     var dl = false
-    $(".l_guanbi").click(function() {
-            $(".l_box").css("display", "none")
-        })
-        //用户名
-    $("input[name='phone']").focus(function() {
+    $(".l_guanbi").click(function () {
+        $(".l_box").css("display", "none")
+    })
+    //用户名
+    $("input[name='phone']").focus(function () {
         if ($(this).val() == "") {
             layer.tips('用户名不能为空', '.num', {
                 tips: [3, 'yelow'],
@@ -14,7 +14,7 @@
         }
         return dl;
     });
-    $("input[name='phone']").blur(function() {
+    $("input[name='phone']").blur(function () {
         if ($(this).val() == "admin") {
             layer.tips('验证成功', ".num", {
                 tips: [3, 'green'],
@@ -30,7 +30,7 @@
         }
         return dl
     });
-    $("input[name='Passwords']").focus(function() {
+    $("input[name='Passwords']").focus(function () {
         if ($(this).val() == "") {
             layer.tips('密码不能为空', '#pass', {
                 tips: [3, 'black'],
@@ -40,7 +40,7 @@
         }
         return dl;
     });
-    $("input[name='Passwords']").blur(function() {
+    $("input[name='Passwords']").blur(function () {
         if ($(this).val() == "123456") {
             layer.tips('验证成功', "#pass", {
                 tips: [3, 'green'],
@@ -56,11 +56,14 @@
         }
         return dl
     });
-    // $(".btn").click(function() {
-    //     if (dl == true) {
-    //         location = "##"
-    //     } else {
-    //         alert("登录失败")
-    //     }
-    // })
+    $(".btn").click(function () {
+        if (dl == true) {
+            $(".l_box").css("display", "none");
+        } else {
+            alert("登录失败")
+        }
+    });
+    $(".dl").click(function () {
+        $(".l_box").css("display", "block")
+    })
 })();

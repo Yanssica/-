@@ -6,7 +6,7 @@
     $(".t_sy_jz_div").css("display", "none");
     $(".t_sy_jz_img").css("display", "block");
     setTimeout(function () {
-      $.get("http://192.168.1.94:3000/useing/public", function (data) {
+      $.get("http://192.168.1.24:3000/useing/public", function (data) {
         console.log(data);
         data.forEach(function (val) {
           var html = "     <div class=\"t_syqb_div\">\n                    <img src=".concat(val.img, " alt=\"\">\n                    <div class=\"t_syqb_bq\">").concat(val.info_ty, "</div>\n                    <p>").concat(val.text, "\n                    </p>\n                    <div class=\"t_syqb_tai\"><span>2032</span><span>").concat(val.num, "\u53F0</span></div>\n                    <div class=\"t_syqb_rs\"><span>").concat(val.totalnum, "</span>\u7533\u8BF7</div>\n                    <div class=\"t_syqb_ts\">\u5269\u4F59\u65F6\u95F4\u4E24\u5929</div>\n                </div>");
@@ -21,7 +21,7 @@
     $(".t_sy_jz_div2").css("display", "none");
     $(".t_sy_jz_img2").css("display", "block");
     setTimeout(function () {
-      $.get("http://192.168.1.94:3000/useing/public", function (data) {
+      $.get("http://192.168.1.24:3000/useing/public", function (data) {
         console.log(data);
         arr = data;
         arr.forEach(function (val) {
@@ -31,13 +31,13 @@
       }, 'json');
       $(".t_sy_jz_div2").css("display", "block");
       $(".t_sy_jz_img2").css("display", "none");
-    }, 0.1);
+    }, 1000);
   });
   $(".t_sy_jz3").click(function () {
     $(".t_sy_jz_div3").css("display", "none");
     $(".t_sy_jz_img3").css("display", "block");
     setTimeout(function () {
-      $.get("http://192.168.1.94:3000/useing/public", function (data) {
+      $.get("http://192.168.1.24:3000/useing/public", function (data) {
         console.log(data);
         arr = data;
         arr.forEach(function (val) {
@@ -47,13 +47,13 @@
       }, 'json');
       $(".t_sy_jz_div3").css("display", "block");
       $(".t_sy_jz_img3").css("display", "none");
-    }, 0.1);
+    }, 1000);
   });
   $(".t_sy_jz4").click(function () {
     $(".t_sy_jz_div4").css("display", "none");
     $(".t_sy_jz_img4").css("display", "block");
     setTimeout(function () {
-      $.get("http://192.168.1.94:3000/useing/public", function (data) {
+      $.get("http://192.168.1.24:3000/useing/public", function (data) {
         console.log(data);
         arr = data;
         arr.forEach(function (val) {
@@ -63,9 +63,9 @@
       }, 'json');
       $(".t_sy_jz_div4").css("display", "block");
       $(".t_sy_jz_img4").css("display", "none");
-    }, 0.1);
+    }, 1000);
   });
-  $.get("http://192.168.1.94:3000/useing/master", function (data) {
+  $.get("http://192.168.1.24:3000/useing/master", function (data) {
     console.log(data);
     arr = data;
     arr.forEach(function (val) {
