@@ -127,6 +127,15 @@ $(function() {
 
 
     //确认新密码
+    $('input[name="rePasswords"]').focus(function() {
+        if ($(this).val() == "") {
+            layer.tips('密码不能为空', '#repass', {
+                tips: [3, 'black'],
+                time: 1000,
+            })
+        }
+
+    });
     $("input[name='rePasswords']").blur(function() {
         //console.log($('input[name="pwd"]').val())
         if ($('input[name="pwd"]').val() == $(this).val()) {
@@ -165,8 +174,15 @@ $(function() {
     //注册按钮
     $(".l_ljzc").click(function() {
         if (tz == true) {
+<<<<<<< HEAD
             location = "index.html";
         } else if (tz == false) {
+=======
+            setTimeout(function() { location = "syxq.html"; }, 2000)
+
+        } else
+        if (tz == false) {
+>>>>>>> 72c712de348a91bb80a1a397d76300cb9da72123
             alert("格式错误")
         }
     });

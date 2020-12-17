@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 $(function () {
 
     $(".currur1").click(function () {
+=======
+$(function() {
+
+    $(".currur1").click(function() {
+>>>>>>> 72c712de348a91bb80a1a397d76300cb9da72123
         $(this).addClass("active").siblings().removeClass("active");
         $(".second").fadeIn()
         $(".first").fadeOut()
     })
+<<<<<<< HEAD
     $(".currur2").click(function () {
+=======
+    $(".currur2").click(function() {
+>>>>>>> 72c712de348a91bb80a1a397d76300cb9da72123
         $(this).addClass("active").siblings().removeClass("active");
         $(".first").fadeIn()
         $(".second").fadeOut()
@@ -14,7 +24,11 @@ $(function () {
 
 
 
+<<<<<<< HEAD
     $(".zan").click(function () {
+=======
+    $(".zan").click(function() {
+>>>>>>> 72c712de348a91bb80a1a397d76300cb9da72123
         $(".zan>img").toggleClass("active");
         if ($(".zan>img").hasClass("active")) {
             $(".zan-span").html(4)
@@ -23,6 +37,7 @@ $(function () {
         }
     })
 
+<<<<<<< HEAD
     $(".t_rq_jz").click(function () {
         $(".t_rq_jz_div").css("display", "none");
         $(".t_rq_jz_img").css("display", "block");
@@ -112,4 +127,20 @@ $(function () {
             $(".t_rq_jz_img2").css("display", "none");
         }, 1000)
     });
+=======
+    $(".more span").click(function() {
+
+        $(".more img").attr("src", "./img/loading-icon.gif")
+    })
+    $(".first-one").each(function() {
+        $(this).mouseenter(function() {
+            $(this).children().eq(1).fadeIn();
+
+        })
+        $(this).mouseleave(function() {
+            $(this).children().eq(1).fadeOut();
+            // console.log(2);
+        })
+    })
+>>>>>>> 72c712de348a91bb80a1a397d76300cb9da72123
 })
