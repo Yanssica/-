@@ -1,11 +1,11 @@
-$(function(){
-   
-    $(".currur1").click(function(){
+$(function() {
+
+    $(".currur1").click(function() {
         $(this).addClass("active").siblings().removeClass("active");
         $(".second").fadeIn()
         $(".first").fadeOut()
     })
-    $(".currur2").click(function(){
+    $(".currur2").click(function() {
         $(this).addClass("active").siblings().removeClass("active");
         $(".first").fadeIn()
         $(".second").fadeOut()
@@ -14,17 +14,27 @@ $(function(){
 
 
 
-    $(".zan").click(function(){
+    $(".zan").click(function() {
         $(".zan>img").toggleClass("active");
-        if( $(".zan>img").hasClass("active")){
+        if ($(".zan>img").hasClass("active")) {
             $(".zan-span").html(4)
-        }else {
+        } else {
             $(".zan-span").html(3)
         }
     })
 
-    $(".more span").click(function(){
-       
-        $(".more img").attr("src","../img/loading-icon.gif")
-    }) 
+    $(".more span").click(function() {
+
+        $(".more img").attr("src", "./img/loading-icon.gif")
+    })
+    $(".first-one").each(function() {
+        $(this).mouseenter(function() {
+            $(this).children().eq(1).fadeIn();
+
+        })
+        $(this).mouseleave(function() {
+            $(this).children().eq(1).fadeOut();
+            // console.log(2);
+        })
+    })
 })
